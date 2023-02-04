@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "name": "@fullcalendar-example-projects/angular",
+  "version": "0.0.0",
+  "title": "FullCalendar Angular Example Project",
+  "license": "ISC",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "build:prod": "ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@angular/animations": "^13.3.12",
+    "@angular/common": "^13.3.12",
+    "@angular/compiler": "^13.3.12",
+    "@angular/core": "^13.3.12",
+    "@angular/forms": "^13.3.12",
+    "@angular/platform-browser": "^13.3.12",
+    "@angular/platform-browser-dynamic": "^13.3.12",
+    "@angular/router": "^13.3.12",
+    "@fullcalendar/angular": "^5.11.4",
+    "@fullcalendar/core": "^5.11.4",
+    "@fullcalendar/daygrid": "^5.11.4",
+    "@fullcalendar/list": "^5.11.4",
+    "@fullcalendar/resource-timeline": "^5.11.4",
+    "rxjs": "^7.8.0",
+    "tslib": "^2.5.0",
+    "zone.js": "^0.11.8"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^13.3.10",
+    "@angular/cli": "^13.3.10",
+    "@angular/compiler-cli": "^13.3.12",
+    "@types/node": "^12.20.55",
+    "typescript": "^4.6.4"
+  }
+}
