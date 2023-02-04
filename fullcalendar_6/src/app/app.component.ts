@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
     plugins: [resourceTimelinePlugin],
     headerToolbar: {},
     initialView: 'resourceTimelineWeek',
-    schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
+    // schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
     resources: this.resources,
     nowIndicator: true,
     resourceLabelContent: this.resourceLabelContent.bind(this),

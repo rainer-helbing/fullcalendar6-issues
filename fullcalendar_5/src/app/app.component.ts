@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   calendarOptions: CalendarOptions = {
     headerToolbar: {},
     initialView: 'resourceTimelineWeek',
-    schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
+    // schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
     resources: this.resources,
     nowIndicator: true,
     resourceLabelContent: this.resourceLabelContent.bind(this),
